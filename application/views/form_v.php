@@ -7,9 +7,7 @@
 <body>
 	<form action="http://localhost/mytravel/user/add" method="post">
 		<table>
-		<tr>
-			<td>ID</td> <td>:</td><td><input type="text" name="id"></td>
-		</tr>
+
 		<tr>
 		<td>Username</td> <td>:</td><td><input type="text" name="username"></td>
 		</tr>
@@ -20,7 +18,10 @@
 		<td>Fullname</td> <td>:</td><td><input type="text" name="fullname"></td>
 		</tr>
 		<tr>
-		<td>Level</td> <td>:</td><td><input type="text" name="level"></td>
+		<td>Level</td><td><select name="level">
+			<option value="admin">Admin</option>
+			<option value="user">User</option>
+		</select>
 		</tr>
 		<tr>
 		<td><input type="submit" name="submit" value="Submit"></td>

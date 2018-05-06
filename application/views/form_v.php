@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello</title>
-	
+	<title></title>
 </head>
 <body>
-	<form action="http://localhost/mytravel/user/add" method="post">
-		<table>
 
+	<?php
+/*<form action="http://localhost/mytravel-master/index.php/user/add" method="post">
+	<table>
 		<tr>
-		<td>Username</td> <td>:</td><td><input type="text" name="username"></td>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="username"></td>
 		</tr>
 		<tr>
-		<td>Password</td> <td>:</td><td><input type="password" name="password"></td>
+			<td>Fullname</td>
+			<td>:</td>
+			<td><input type="text" name="fullname"></td>
 		</tr>
 		<tr>
-		<td>Fullname</td> <td>:</td><td><input type="text" name="fullname"></td>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password" name="password"></td>
 		</tr>
 		<tr>
-		<td>Level</td><td><select name="level">
-			<option value="admin">Admin</option>
-			<option value="user">User</option>
-		</select>
+			<td>Level</td>
+			<td>:</td>
+			<td><select name="level">
+		<option name="user">User</option>
+		<option name="admin">Admin</option>
+	</select></td>
 		</tr>
 		<tr>
-		<td><input type="submit" name="submit" value="Submit"></td>
-		</table>
-	</form>
+			<td><input type="submit" name="submit" value="Submit"></td>
+		</tr>
+		
+	</table>
+</form>*/
+?>
+<a href="http://localhost/mytravel/index.php/user/show">Lihat Data</a>
+<form action="http://localhost/mytravel/index.php/user/add" method="post">
+	<table>
+		<tr>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="username"></td>
+		</tr>
+		<tr>
+			<td>Fullname</td>
+			<td>:</td>
+			<td><input type="text" name="fullname"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+			<td>Level</td>
+			<td>:</td>
+			<td><select name="level">
+		<option name="user">User</option>
+		<option name="admin">Admin</option>
+	</select></td>
+		</tr>
+		<tr>
+			<td><input type="submit" name="submit" value="Submit"></td>
+		</tr>
+		
+	</table>
+</form>
+
+</table>
 </body>
 </html>

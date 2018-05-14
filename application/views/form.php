@@ -6,7 +6,7 @@
 <body>
 
 <a href="http://localhost/mytravel/index.php/user">Input Data</a>
-<table>
+<table border="1">
 	<th>No</th>
 	<th>Username</th>
 	<th>Fullname</th>
